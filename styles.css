@@ -1,0 +1,86 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0;
+    width: 100%;
+    display: block;
+    float: left;
+}
+.jumbotron h1 {
+    font-size: 60px;
+    line-height: 1;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 60px 0;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+.nav-pills li{
+    cursor: pointer;
+}
+
+.info {
+    display: block;
+    float: left;
+    font-size: 25px;
+    line-height: 2
+}
+
+img.info{
+    max-width: 100%;
+}
+
+.footer {
+    clear: both;
+    margin-top: 20px;
+}
+
+ul.events {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 18px;
+}
+
+li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.badge {
+    font-size: 16px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+hr {
+    width: 100%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.event-image img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 20px 20px 0;
+    float:left
+}
+

@@ -1,0 +1,8 @@
+<h2>Talks</h2>
+<ul class="events">
+  <li *ngFor="let event of events" (click)="gotoDetail(event)" [class.selected]="event === selectedEvent">
+    <span class="event-element">
+      <span class="badge">{{event.date | date:'yMdjm'}}</span> {{event.name}}
+    </span>
+  </li>
+</ul>
