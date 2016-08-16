@@ -23,6 +23,7 @@ export class InMemoryDataService {
             date: '8/24/2016, 04:00:00 PM',
             name: 'Rooting while hungover',
             image: '../images/hungover.gif'
+            text: '<p>Learn how to use soothing ida pro themes that help allivate headaches and vomit spins</p>'
         }, {
             id: 5,
             date: '8/25/2016, 10:00:00 AM',
