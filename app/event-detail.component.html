@@ -4,9 +4,8 @@
   <h3>
     {{event.date | date:'shortTime'}}
   </h3>
-  <div class="event-image">
-    <img src="{{event.image}}">
-
+  <div  class="event-image">
+    <img  *ngIf="event.image" src="{{event.image}}">
   <span [innerHTML]="event.text" class="event-text">
   </span>
   </div>
